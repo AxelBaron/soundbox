@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Soundbox</title>
+  
+  <script>
+    function playSong(songToPlay){
+      document.getElementById(songToPlay);
+      songToPlay.play();
+    }
+  </script>
+</head>
+<body>
+  <button  onclick="playSong(tortillas)">Tortillas on a vynil</button>
+  <audio id='tortillas' src="songs/tortillas.mp3"></audio>
+</body>
+</html>
