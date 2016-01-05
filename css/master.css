@@ -1,0 +1,18 @@
+body{
+  width:90%;
+  margin:auto;
+  font-family:Arial;
+}
+
+h1{
+  text-align:center;
+  margin-bottom: 50px;
+  font-family:Arial;
+
+}
+
+#logo{
+  position: relative;
+  top:35px;
+  width: 100px;
+}
