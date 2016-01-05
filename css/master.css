@@ -38,7 +38,7 @@ section.container-fluid .container{margin-bottom: 20px;}
 }
 .cont-btn {padding: 0px!important;}
 .cont-btn button{height: 40px;width: 98%; text-align: center;}
-.cont-btn button .btn{background-image: none; background-color: #FFFFFF;}
+.cont-btn button.btn.btn-default{background-image: none; background-color: #FFFFFF;}
 
 /* FOOTER */
 footer{background-color: rgba(0,0,0,0.9); text-align: center; height: 30px;}
