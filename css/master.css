@@ -22,6 +22,8 @@ h1#soundbox-title {
 
 h1 #logo {
     margin-right: 10px;
+    max-width: 600px;
+    width: 100%;
 }
 
 /* FIN HEADER*/
