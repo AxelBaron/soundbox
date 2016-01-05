@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SoundBox</title>
   <link rel="stylesheet" href="css/master.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap-theme.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap-theme.css.map" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css.map" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map" media="screen" charset="utf-8">
+  
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -22,8 +30,9 @@
     }
   </script>
 </head>
-<body class="container-fluid">
-  <header class="col-lg-12">
+<body>
+  
+  <div class="header">
     <a href='https://github.com/AxelBaron/soundbox'>
       <img src="imgs/forkMeWhite.png" alt="forkMe" id='forkMe'/>
     </a>
@@ -33,83 +42,136 @@
         <img src="imgs/soundbox-logo.png" alt="logo" id='logo'/>
       </a>
     </h1>
-  </header>
+  </div>
 
-  <section class="container">
-    <!-- rodellee -->
-    <button  onclick="playSong(rondelle)" class="btn btn-default">Rondelle</button>
-    <audio id='rondelle' src="sounds/rondelle.mp3"></audio>
+  <section class="container-fluid"> 
+    <div class="container">   
+      <div class="row">
+        <!-- rodellee -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(rondelle)" class="btn btn-default">Rondelle</button>
+          <audio id='rondelle' src="sounds/rondelle.mp3"></audio>
+        </div>
 
-    <!-- cheesburger et un cocaaaaa -->
-    <button  onclick="playSong(cheesburgercoca)" class="btn btn-default">Cheese & coca</button>
-    <audio id='cheesburgercoca' src="sounds/cheesburgercoca.mp3"></audio>
+        <!-- cheesburger et un cocaaaaa -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(cheesburgercoca)" class="btn btn-default col-lg-2">Cheese & Coca</button>
+          <audio id='cheesburgercoca' src="sounds/cheesburgercoca.mp3"></audio>
+        </div>
 
-    <!-- mais il est où lui?! -->
-    <button  onclick="playSong(ilestoului)" class="btn btn-default">Il est où</button>
-    <audio id='ilestoului' src="sounds/ilestoului.mp3"></audio>
+        <!-- mais il est où lui?! -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(ilestoului)" class="btn btn-default col-lg-2">Il est où</button>
+          <audio id='ilestoului' src="sounds/ilestoului.mp3"></audio>
+        </div>
 
-    <!-- Macdo de merde -->
-    <button  onclick="playSong(macdodemerde)" class="btn btn-default">Mcdo</button>
-    <audio id='macdodemerde' src="sounds/macdodemerde.mp3"></audio>
+        <!-- Macdo de merde -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(macdodemerde)" class="btn btn-default col-lg-2">Mcdo</button>
+          <audio id='macdodemerde' src="sounds/macdodemerde.mp3"></audio>
+        </div>
 
-    <!-- Y'a plus personne -->
-    <button  onclick="playSong(pluspersonne)" class="btn btn-default">Personne</button>
-    <audio id='pluspersonne' src="sounds/personne.mp3"></audio>
+        <!-- Y'a plus personne -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(pluspersonne)" class="btn btn-default col-lg-2">Personne</button>
+          <audio id='pluspersonne' src="sounds/personne.mp3"></audio>
+        </div>
 
-    <!-- Tortillas -->
-    <button  onclick="playSong(tortillas)" class="btn btn-default">Tortillas on a vynil</button>
-    <audio id='tortillas' src="sounds/tortillas.mp3"></audio>
+        <!-- Tortillas -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(tortillas)" class="btn btn-default col-lg-2">Tortillas on a vinyl</button>
+          <audio id='tortillas' src="sounds/tortillas.mp3"></audio>
+        </div>
 
-    <!-- Bruce lee apprend un truc -->
-    <button  onclick="playSong(brucelee)" class="btn btn-default">Bruce lee apprend un truc</button>
-    <audio id='brucelee' src="sounds/brucelee.mp3"></audio>
+        <!-- Bruce lee apprend un truc -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(brucelee)" class="btn btn-default col-lg-2">Bruce lee apprend un truc</button>
+          <audio id='brucelee' src="sounds/brucelee.mp3"></audio>
+        </div>
 
-    <!-- Weeeeeee hahaha -->
-    <button  onclick="playSong(wee)" class="btn btn-default">Weee hahaha!</button>
-    <audio id='wee' src="sounds/wee.mp3"></audio>
+        <!-- Weeeeeee hahaha -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(wee)" class="btn btn-default col-lg-2">Weee hahaha!</button>
+          <audio id='wee' src="sounds/wee.mp3"></audio>
+        </div>
 
-    <!-- Phillippe-->
-    <button  onclick="playSong(philippe)" class="btn btn-default">Philippe</button>
-    <audio id='philippe' src="sounds/philippe.mp3"></audio>
+        <!-- Phillippe-->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(philippe)" class="btn btn-default col-lg-2">Philippe</button>
+          <audio id='philippe' src="sounds/philippe.mp3"></audio>
+        </div>
 
-    <!-- Nein nein nein nein !-->
-    <button  onclick="playSong(nein)" class="btn btn-default">Nein nein nein !</button>
-    <audio id='nein' src="sounds/nein.mp3"></audio>
+        <!-- Nein nein nein nein !-->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(nein)" class="btn btn-default col-lg-2">Nein nein nein !</button>
+          <audio id='nein' src="sounds/nein.mp3"></audio>
+        </div>
 
-    <button  onclick="playSong(okay)" class="btn btn-default">O-KAY ! Haha</button>
-    <audio id='okay' src="sounds/okay.mp3"></audio>
+        <!-- OKAY! -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(okay)" class="btn btn-default col-lg-2">O-KAY ! Haha</button>
+          <audio id='okay' src="sounds/okay.mp3"></audio>
+        </div>
 
-    <button  onclick="playSong(johncena)" class="btn btn-default">HIS NAME IS !!!</button>
-    <audio id='johncena' src="sounds/johncena.mp3"></audio>
+        <!-- john cena -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(johncena)" class="btn btn-default col-lg-2">HIS NAME IS !!!</button>
+          <audio id='johncena' src="sounds/johncena.mp3"></audio>
+        </div>
 
-    <!--Baboulinet pas content-->
-    <button  onclick="playSong(baboulinetpascontent)" class="btn btn-default">Baboulinet pas content</button>
-    <audio id='baboulinetpascontent' src="sounds/baboulinetpascontent.mp3"></audio>
+        <!--Baboulinet pas content-->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(baboulinetpascontent)" class="btn btn-default col-lg-2">Baboulinet pas content</button>
+          <audio id='baboulinetpascontent' src="sounds/baboulinetpascontent.mp3"></audio>
+        </div>
 
-    <button  onclick="playSong(wondercash)" class="btn btn-default">WONDERCASH</button>
-    <audio id='wondercash' src="sounds/wondercash.mp3"></audio>
+        <div class="col-lg-2 cont-btn">
+        <!-- WONDERCASH -->
+          <button  onclick="playSong(wondercash)" class="btn btn-default col-lg-2">Wondercash</button>
+          <audio id='wondercash' src="sounds/wondercash.mp3"></audio>
+        </div>
 
-    <!--Kamelotte arrete de parler!-->
-    <button  onclick="playSong(kamelott)" class="btn btn-default">Arretez de parler</button>
-    <audio id='kamelott' src="sounds/kamelott.mp3"></audio>
+        <!--Kamelotte arrete de parler!-->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(kamelott)" class="btn btn-default col-lg-2">Arrêtez de parler</button>
+          <audio id='kamelott' src="sounds/kamelott.mp3"></audio>
+        </div>
 
-    <!--Baboulinet zizi-->
-    <button  onclick="playSong(baboulinetzizi)" class="btn btn-default">Zizi tout dur</button>
-    <audio id='baboulinetzizi' src="sounds/babouinetZizi.mp3"></audio>
+        <!--Baboulinet zizi-->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(baboulinetzizi)" class="btn btn-default col-lg-2">Zizi tout dur</button>
+          <audio id='baboulinetzizi' src="sounds/babouinetZizi.mp3"></audio>
+        </div>
 
-    <button  onclick="playSong(chewbixwel)" class="btn btn-default">Chewbi</button>
-    <audio id='chewbixwel' src="sounds/chewbi.mp3"></audio>
+        <!-- chewbi -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(chewbixwel)" class="btn btn-default col-lg-2">Chewbi</button>
+          <audio id='chewbixwel' src="sounds/chewbi.mp3"></audio>
+        </div>
+        
+        <!-- Oompa Loompa -->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(oompaloompa)" class="btn btn-default col-lg-2">Oompa Loompa</button>
+          <audio id='oompaloompa' src="sounds/oompaloompa.mp3"></audio>
+        </div>
 
-    <button  onclick="playSong(oompaloompa)" class="btn btn-default">Oompaloompa</button>
-    <audio id='oompaloompa' src="sounds/oompaloompa.mp3"></audio>
+        <!--tchacha arrete de parler!-->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(tchatcha)" class="btn btn-default col-lg-2">Tchatcha</button>
+          <audio id='tchatcha' src="sounds/sf_tchatcha.mp3"></audio>
+        </div>
 
-    <!--tchacha arrete de parler!-->
-    <button  onclick="playSong(tchatcha)" class="btn btn-default">tchatcha</button>
-    <audio id='tchatcha' src="sounds/sf_tchatcha.mp3"></audio>
+        <!--therese arrete de parler!-->
+        <div class="col-lg-2 cont-btn">
+          <button  onclick="playSong(therese)" class="btn btn-default col-lg-2">Thérèse</button>
+          <audio id='tchatcha' src="sounds/Lepère-noëlestuneordure-jetenculeTherese.mp3"></audio>
+        </div>
 
-    <!--therese arrete de parler!-->
-    <button  onclick="playSong(therese)" class="btn btn-default">therese</button>
-    <audio id='tchatcha' src="sounds/Lepère-noëlestuneordure-jetenculeTherese.mp3"></audio>
+      </div>
+    </div>
   </section>
+  <footer>
+    <p>SoundBox - Concentré d'débilités</p>
+  </footer>
 </body>
 </html>
