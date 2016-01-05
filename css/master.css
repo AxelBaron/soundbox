@@ -1,7 +1,8 @@
 body{
   margin:auto;
   font-family:Arial;
-  background-image: url(../imgs/vinyl2.png);
+  background-image: url(../imgs/vinyl3.jpg);
+  background-color: #000;
   background-position: top center;
   background-repeat-y: repeat; 
 }
