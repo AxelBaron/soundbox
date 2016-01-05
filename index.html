@@ -17,11 +17,16 @@
 
   <script>
     function playSong(songToPlay){
-      var x= document.getElementsByClassName('btn btn-default');
-      x[0].className += " maClasse";
       document.getElementById(songToPlay);
-      songToPlay.play();
-      
+      if (songToPlay.paused){
+        songToPlay.play();
+      }
+      else{
+        songToPlay.pause();
+        songToPlay.currentTime = 0;
+
+      }
+
     }
 
   </script>
@@ -160,7 +165,7 @@
         <!--therese arrete de parler!-->
         <div class="col-lg-2 cont-btn">
           <button  onclick="playSong(therese)" class="btn btn-default col-lg-2">Thérèse</button>
-          <audio id='tchatcha' src="sounds/Lepère-noëlestuneordure-jetenculeTherese.mp3"></audio>
+          <audio id='therese' src="sounds/Lepère-noëlestuneordure-jetenculeTherese.mp3"></audio>
         </div>
 
       </div>
