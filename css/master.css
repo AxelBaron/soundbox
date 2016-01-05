@@ -1,24 +1,21 @@
 body{
-  width:90%;
   margin:auto;
   font-family:Arial;
+  background-image: url(../imgs/vinyl2.png);
+  background-position: top center;
+  background-repeat-y: repeat; 
 }
 
-h1{
-  text-align:center;
-  margin-bottom: 50px;
-  font-family:Arial;
-
-}
+h1#soundbox-title{text-align:center; margin: 50px 0 40px;}
 
 #logo{
-  position: relative;
-  top:35px;
-  width: 100px;
+  margin-right: 10px;
 }
 
 #forkMe{
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -15px;
+  top: 0px;
 }
+
+.btn{margin-top: 10px;}
