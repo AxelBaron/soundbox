@@ -1,14 +1,14 @@
 body {
-    margin: auto;
-    font-family: Arial;
-    background-color: #000;
-    background-image: url(../imgs/vinyl3.jpg);
-    background-position: top center;
-    background-repeat-y: repeat;
+  margin: auto;
+  font-family: Arial;
+  background-color: rgb(255, 170, 70);
 }
 
 /* HEADER */
 
+.header{
+  background-color: #649fbf;
+}
 #forkMe {
     position: absolute;
     top: 0;
@@ -16,8 +16,9 @@ body {
 }
 
 h1#soundbox-title {
-    margin: 50px 0 40px;
-    text-align: center;
+  text-align: center;
+    margin: 0px;
+    padding-top: 30px;
 }
 
 h1 #logo {
@@ -25,10 +26,15 @@ h1 #logo {
     width: 100%;
 }
 
+#vynil{
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
 /* FIN HEADER*/
 
 section.container-fluid {
-    background-color: rgba(255,255,255,0.9);
     box-shadow: 0px 0px 3px #000 inset;
     margin-bottom: 40px;
     min-height: 400px;
@@ -36,7 +42,13 @@ section.container-fluid {
 section.container-fluid .container{margin-bottom: 20px;}
 
 .btn {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+.btn-default {
+  background-color: #649FBF!important;
+  color: white!important;
+  text-shadow: none!important;
 }
 .cont-btn {padding: 0px!important;}
 .cont-btn button{height: 40px;width: 98%; text-align: center;}
