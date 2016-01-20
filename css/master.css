@@ -37,6 +37,10 @@ body{
 	padding-top:20px;
 }
 
+.row{
+	padding-left: 1%;
+}
+
 .btn{
 	margin: 1%;
 } 
