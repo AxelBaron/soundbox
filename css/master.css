@@ -1,14 +1,8 @@
-body {
-  margin: auto;
-  font-family: Arial;
-  background-color: rgb(255, 170, 70);
-}
-
 /* HEADER */
-
 .header{
-  background-color: #649fbf;
+	background-color: #64b5f6;
 }
+
 #forkMe {
     position: absolute;
     top: 0;
@@ -16,44 +10,35 @@ body {
 }
 
 h1#soundbox-title {
-  text-align: center;
-    margin: 0px;
-    padding-top: 30px;
+	text-align: center;
+	margin: 0px;
+	padding-top: 30px;
 }
 
-h1 #logo {
+h1#logo {
     max-width: 600px;
     width: 100%;
 }
 
 #vynil{
-  width: 600px;
-  display: block;
-  margin: auto;
+	max-width: 40%;
+	display: block;
+	margin: auto;
 }
 
 /* FIN HEADER*/
+/* BODY */
 
-section.container-fluid {
-    box-shadow: 0px 0px 3px #000 inset;
-    margin-bottom: 40px;
-    min-height: 400px;
-}
-section.container-fluid .container{margin-bottom: 20px;}
-
-.btn {
-  margin-top: 20px;
+body{
+	background-color: #fff;
 }
 
-.btn-default {
-  background-color: #649FBF!important;
-  color: white!important;
-  text-shadow: none!important;
+.container{
+	padding-top:20px;
 }
-.cont-btn {padding: 0px!important;}
-.cont-btn button{height: 40px;width: 98%; text-align: center;}
-.cont-btn button.btn.btn-default{background-image: none; background-color: #FFFFFF;}
 
-/* FOOTER */
-footer{background-color: rgba(0,0,0,0.9); text-align: center; height: 30px;}
-footer p{line-height: 30px; margin-bottom: 0px;}
+.btn{
+	margin: 1%;
+} 
+
+/* FIN BODY */

@@ -1,97 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>SoundBox</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="UTF-8">
+		<title>SoundBox</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/master.css" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap-theme.css" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap-theme.css.map" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css.map" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.min.css.map" media="screen" charset="utf-8">
+		<!-- Page css -->
+		<link rel="stylesheet" href="css/master.css" media="screen" charset="utf-8">
 
-  <script src="js/jquery-1.12.0.min.js"></script>
+		<!--Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+		<!--materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-  <script>
-    function playSong(songToPlay){
-      document.getElementById(songToPlay);
-      if (songToPlay.paused){
-        songToPlay.play();
-      }
-      else{
-        songToPlay.pause();
-        songToPlay.currentTime = 0;
+		<!-- JQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-      }
-    }
-  </script>
-</head>
-<body>
- <!-- header -->
-  <div class="header">
-    <a href='https://github.com/AxelBaron/soundbox'>
-      <img src="imgs/forkMeWhite.png" alt="forkMe" id='forkMe'/>
-    </a>
+		<script>
+			function playSong(songToPlay){
+				document.getElementById(songToPlay);
+				if (songToPlay.paused){
+					songToPlay.play();
+				}
+				else{
+					songToPlay.pause();
+					songToPlay.currentTime = 0;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<!-- header -->
+		<div class="header">
+			<a href="https://github.com/AxelBaron/soundbox">
+				<img src="img/forkMeWhite.png" alt="forkMe" id="forkMe"/>
+			</a>
+			<h1 id="soundbox-title">
+				<a href="http://axelbaron.github.io/soundbox/" alt="soundbox">
+					<img src="img/soundbox-logo.png" alt="logo" id="logo"/>
+				</a>
+			</h1>	
+			<img src="img/vynil-cut.svg" alt="Le vynil" id="vynil" width="600px" />
+		</div>
 
-    <h1 id="soundbox-title">
-      <a href="http://axelbaron.github.io/soundbox/" alt="soundbox">
-        <img src="imgs/soundbox-logo.png" alt="logo" id='logo'/>
-      </a>
-    </h1>
-    <img src="imgs/vynil-cut.svg" alt="Le vynil" id='vynil' width="600px" />
-  </div>
-
-  <section class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <script>
-        $.getJSON("sounds.json", function(data){
-            console.log(data);
-            for (var i = 0; i < data.sounds.length; i++) {
-              console.log(data.sounds[i]);
-              var html ='<div class="col-lg-2 col-xs-6 cont-btn">';
-              html += '<button  onclick="playSong('+data.sounds[i].fichier+')" class="btn btn-default">'+data.sounds[i].nom+'</button>';
-              html +='<audio id="'+data.sounds[i].fichier+'" src="sounds/'+data.sounds[i].fichier+'.mp3"></audio>';
-              html+='</div>';
-              $(html).appendTo( "#recepteur-json");
-            }
-            // $.each(data.sounds, function(i, sound) {
-            //   $.each(sound, function() {
-            //     console.log(sound.id);
-            //     var html ='<div class="col-lg-2 col-xs-6 cont-btn">';
-            //     html += '<button  onclick="playSong('+sound.fichier+')" class="btn btn-default">'+sound.nom+'</button>';
-            //     html +='<audio id="'+sound.fichier+'" src="sounds/'+sound.fichier+'.mp3"></audio>';
-            //     html+='</div>';
-            //     $(html).appendTo( "#recepteur-json");
-            //   });
-            // });
-        });
-        </script>
-        <div id="recepteur-json"></div>
-        <!-- <?php
-         // Récupère le json et le transforme en objet php.
-          $json = file_get_contents("sounds.json");
-          $json = json_decode($json);
-
-          $sounds = $json->sounds;
-          foreach ($sounds as $sound) {
-            echo '<div class="col-lg-2 col-xs-6 cont-btn">';
-            echo '<button  onclick="playSong('.$sound->fichier.')" class="btn btn-default">'.$sound->nom.'</button>';
-            echo '<audio id="'.$sound->fichier.'" src="sounds/'.$sound->fichier.'.mp3"></audio>';
-            echo '</div>';
-          }
-        ?> -->
-      </div>
-    </div>
-  </section>
-  <footer>
-    <p>SoundBox - Concentré d'débilités en masse</p>
-  </footer>
-</body>
+			<div class="container">
+				<div class="row">
+					<script>
+						$.getJSON("sounds.json", function(data){
+							console.log(data);
+							for (var i = 0; i < data.sounds.length; i++) {
+								console.log(data.sounds[i]);
+								var html ='<div>';
+								html += '<button  onclick="playSong('+data.sounds[i].fichier+')" class="col s3 waves-effect waves-light blue lighten-2 btn">'+data.sounds[i].nom+'</button>';
+								html +='<audio id="'+data.sounds[i].fichier+'" src="sounds/'+data.sounds[i].fichier+'.mp3"></audio>';
+								html+='</div>';
+								$(html).appendTo( "#recepteur-json");
+							}
+						});
+					</script>
+					<div id="recepteur-json"></div>
+				</div>
+			</div>
+		
+		<footer>
+			<p class="center-align">SoundBox - Concentré de débilités en masse</p>
+		</footer>
+		
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+	</body>
 </html>
