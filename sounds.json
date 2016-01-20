@@ -23,7 +23,7 @@
     },
     {
       "id": 4,
-      "fichier": "pluspersonne",
+      "fichier": "personne",
       "nom":"Il y a plus personne !"
     },
     {
@@ -78,12 +78,12 @@
     },
     {
       "id": 15,
-      "fichier": "baboulinetzizi",
+      "fichier": "babouinetZizi",
       "nom":"Baboulinet tout dur"
     },
     {
       "id": 16,
-      "fichier": "chewbixwel",
+      "fichier": "chewbi",
       "nom":"Chewbi"
     },
     {
