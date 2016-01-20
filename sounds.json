@@ -1,0 +1,191 @@
+{
+  "sounds":[
+    {
+      "id": 0,
+      "fichier": "rondelle",
+      "nom": "Il m'a défoncé la rondelle !"
+    },
+
+    {
+      "id": 1,
+      "fichier": "cheesburgercoca",
+      "nom":"Un chesse burger !"
+    },
+    {
+      "id": 2,
+      "fichier": "ilestoului",
+      "nom":"Il est où lui ?"
+    },
+    {
+      "id": 3,
+      "fichier": "macdodemerde",
+      "nom":"Macdo de merde !"
+    },
+    {
+      "id": 4,
+      "fichier": "pluspersonne",
+      "nom":"Il y a plus personne !"
+    },
+    {
+      "id": 5,
+      "fichier": "tortillas",
+      "nom":"Tortillas on a vynil"
+    },
+    {
+      "id": 6,
+      "fichier": "brucelee",
+      "nom":"Bruce lee"
+    },
+    {
+      "id": 7,
+      "fichier": "wee",
+      "nom":"Weeeeee !"
+    },
+    {
+      "id": 8,
+      "fichier": "philippe",
+      "nom":"Philippe !"
+    },
+    {
+      "id": 9,
+      "fichier": "nein",
+      "nom":"Nein nein nein !"
+    },
+    {
+      "id": 10,
+      "fichier": "okay",
+      "nom":"Okayyyyyyy !"
+    },
+    {
+      "id": 11,
+      "fichier": "johncena",
+      "nom":"His name is ..."
+    },
+    {
+      "id": 12,
+      "fichier": "baboulinetpascontent",
+      "nom":"Baboulinet pas content !"
+    },
+    {
+      "id": 13,
+      "fichier": "wondercash",
+      "nom":"Wondercash"
+    },
+    {
+      "id": 14,
+      "fichier": "kamelott",
+      "nom":"Arretez de parler"
+    },
+    {
+      "id": 15,
+      "fichier": "baboulinetzizi",
+      "nom":"Baboulinet tout dur"
+    },
+    {
+      "id": 16,
+      "fichier": "chewbixwel",
+      "nom":"Chewbi"
+    },
+    {
+      "id": 17,
+      "fichier": "oompaloompa",
+      "nom":"Oompaloompa !"
+    },
+    {
+      "id": 18,
+      "fichier": "lapinDuMetro",
+      "nom":"Lapin du métro"
+    },
+    {
+      "id": 19,
+      "fichier": "lePiegeASouris",
+      "nom":"Le piège à souris"
+    },
+    {
+      "id": 20,
+      "fichier": "tchatcha",
+      "nom":"Tchatcha"
+    },
+    {
+      "id": 21,
+      "fichier": "therese",
+      "nom":"Therese"
+    },
+    {
+      "id": 22,
+      "fichier": "tropdrole",
+      "nom":"Haha trop drole"
+    },
+    {
+      "id": 23,
+      "fichier": "cestQuiLePatron",
+      "nom":"C'est qui le patron ?"
+    },
+    {
+      "id": 24,
+      "fichier": "jbmachine",
+      "nom":"JB MACHINE !"
+    },
+    {
+      "id": 25,
+      "fichier": "HaJeBougePlus",
+      "nom":"Haa j'bouge plus."
+    },
+    {
+      "id": 26,
+      "fichier": "mickey",
+      "nom":"Mickey"
+    }
+    ,
+    {
+      "id": 27,
+      "fichier": "ronaldo",
+      "nom":"Ronaldo"
+    },
+    {
+      "id": 28,
+      "fichier": "pussy",
+      "nom":"Pussy"
+    },
+    {
+      "id": 29,
+      "fichier": "toosad",
+      "nom":"Too sad"
+    },
+    {
+      "id": 30,
+      "fichier": "toosadhorn",
+      "nom":"Too sad horn"
+    },
+    {
+      "id": 31,
+      "fichier": "weed",
+      "nom":"Smooke weed"
+    },
+    {
+      "id": 32,
+      "fichier": "awhman",
+      "nom":"Aww man !"
+    },
+    {
+      "id": 33,
+      "fichier": "DOIT",
+      "nom":"Do it !"
+    },
+    {
+      "id": 34,
+      "fichier": "batman",
+      "nom":"I'm batman"
+    },
+    {
+      "id": 35,
+      "fichier": "gay",
+      "nom":"Gay"
+    },
+    {
+      "id": 36,
+      "fichier": "trombone",
+      "nom":"Trombone"
+    }
+  ]
+}
