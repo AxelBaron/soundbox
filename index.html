@@ -1,95 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Soundbox</title>
+	<head>
+		<meta charset="UTF-8">
+		<title>SoundBox</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script>
-    function playSong(songToPlay){
-      document.getElementById(songToPlay);
-      songToPlay.play();
-    }
-  </script>
-</head>
-<body>
+		<!-- Page css -->
+		<link rel="stylesheet" href="css/master.css" media="screen" charset="utf-8">
 
-  <!-- rodelle -->
-  <button  onclick="playSong(rondelle)">Rondelle</button>
-  <audio id='rondelle' src="songs/rondelle.mp3"></audio>
+		<!--Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- cheesburger et un cocaaaaa -->
-  <button  onclick="playSong(cheesburgercoca)">Cheese & coca</button>
-  <audio id='cheesburgercoca' src="songs/cheesburgercoca.mp3"></audio>
+		<!--materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-  <!-- mais il est où lui?! -->
-  <button  onclick="playSong(ilestoului)">Il est où</button>
-  <audio id='ilestoului' src="songs/ilestoului.mp3"></audio>
+		<!-- JQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-  <!-- Macdo de merde -->
-  <button  onclick="playSong(macdodemerde)">Mcdo</button>
-  <audio id='macdodemerde' src="songs/macdodemerde.mp3"></audio>
+		<script>
+			function playSong(songToPlay, id){
+				document.getElementById(songToPlay);
 
-  <!-- Y'a plus personne -->
-  <button  onclick="playSong(pluspersonne)">Personne</button>
-  <audio id='pluspersonne' src="songs/personne.mp3"></audio>
+				// Si le son est en pause
+				if (songToPlay.paused){
+					songToPlay.play();
+					// Le bouton se change en pause.
+					$("#"+id+">i").text("pause");
 
-  <!-- Tortillas -->
-  <button  onclick="playSong(tortillas)">Tortillas on a vynil</button>
-  <audio id='tortillas' src="songs/tortillas.mp3"></audio>
+					// Calcul le temps su ons pour transformer le btn une fois celui-ci fini.
+					var duration = songToPlay.duration;
+					setTimeout(function(){
+						$("#"+id+">i").text("play_arrow");
+					}, duration*1000);
+				}
 
-  <!-- Bruce lee apprend un truc -->
-  <button  onclick="playSong(brucelee)">Bruce lee apprend un truc</button>
-  <audio id='brucelee' src="songs/brucelee.mp3"></audio>
+				// Si le son est en cours de lecture
+				else{
+					songToPlay.pause();
+					songToPlay.currentTime = 0;
+					var js = "#"+id+">i";
+					$("#"+id+">i").text("play_arrow");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<!-- header -->
+		<div class="header z-depth-2">
+			<a href="https://github.com/AxelBaron/soundbox">
+				<img src="img/forkMeWhite.png" alt="forkMe" id="forkMe"/>
+			</a>
+			<h1 id="soundbox-title">
+				<a href="http://axelbaron.github.io/soundbox/" alt="soundbox">
+					<img src="img/soundbox-logo.png" alt="logo" id="logo"/>
+				</a>
+			</h1>
+			<img src="img/vynil-cut.svg" alt="Le vynil" id="vynil" width="600px" />
+		</div>
 
-  <!-- Weeeeeee hahaha -->
-  <button  onclick="playSong(wee)">Weee hahaha!</button>
-  <audio id='wee' src="songs/wee.mp3"></audio>
+			<div class="container">
+				<div class="row">
+					<script>
+						$.getJSON("sounds.json", function(data){
+							for (var i = 0; i < data.sounds.length; i++) {
+								var html ='<div>';
+								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+',this.id);" class="col m3 s12 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
+								html +='<audio id="'+data.sounds[i].fichier+'" src="sounds/'+data.sounds[i].fichier+'.mp3"></audio>';
+								html+='</div>';
+								$(html).appendTo( "#recepteur-json");
+							}
+						});
+					</script>
+					<div id="recepteur-json"></div>
+				</div>
+			</div>
 
-  <!-- Phillippe-->
-  <button  onclick="playSong(philippe)">Philippe</button>
-  <audio id='philippe' src="songs/philippe.mp3"></audio>
+		<footer>
+			<p class="center-align">SoundBox - Concentré de débilités en masse</p>
+		</footer>
 
-  <!-- Nein nein nein nein !-->
-  <button  onclick="playSong(nein)">Nein nein nein !</button>
-  <audio id='nein' src="songs/nein.mp3"></audio>
-
-  <button  onclick="playSong(okay)">O-KAY ! Haha</button>
-  <audio id='okay' src="songs/okay.mp3"></audio>
-
-  <button  onclick="playSong(johncena)">HIS NAME IS !!!</button>
-  <audio id='johncena' src="songs/johncena.mp3"></audio>
-
-  <!--Baboulinet pas content-->
-  <button  onclick="playSong(baboulinetpascontent)">Baboulinet pas content</button>
-  <audio id='baboulinetpascontent' src="songs/baboulinetpascontent.mp3"></audio>
-
-  <button  onclick="playSong(wondercash)">WONDERCASH</button>
-  <audio id='wondercash' src="songs/wondercash.mp3"></audio>
-
-  <!--Kamelotte arrete de parler!-->
-  <button  onclick="playSong(kamelott)">Arretez de parler</button>
-  <audio id='kamelott' src="songs/kamelott.mp3"></audio>
-
-  <!--Baboulinet zizi-->
-  <button  onclick="playSong(baboulinetzizi)">Zizi tout dur</button>
-  <audio id='baboulinetzizi' src="songs/babouinetZizi.mp3"></audio>
-
-  <button  onclick="playSong(chewbixwel)">Chewbi</button>
-  <audio id='chewbixwel' src="songs/chewbi.mp3"></audio>
-
-  <button  onclick="playSong(oompaloompa)">Oompaloompa</button>
-  <audio id='oompaloompa' src="songs/oompaloompa.mp3"></audio>
-
-  <!--thcatcha arrete de parler!-->
-  <button  onclick="playSong(tchatcha)">tchatcha</button>
-  <audio id='tchatcha' src="songs/tchatcha.mp3"></audio>
-
-  <!--therese arrete de parler!-->
-  <button  onclick="playSong(therese)">therese</button>
-  <audio id='therese' src="songs/therese.mp3"></audio>
-
-  <!--Trop drole-->
-  <button  onclick="playSong(tropdrole)">Trop drole</button>
-  <audio id='tropdrole' src="songs/tropdrole.mp3"></audio>
-</body>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+	</body>
 </html>

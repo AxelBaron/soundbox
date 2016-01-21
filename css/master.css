@@ -1,0 +1,48 @@
+/* HEADER */
+.header{
+	background-color: #42A5F5;
+}
+
+#forkMe {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+h1#soundbox-title {
+	text-align: center;
+	margin: 0px;
+	padding-top: 30px;
+}
+
+h1#logo {
+    max-width: 600px;
+    width: 100%;
+}
+
+#vynil{
+	max-width: 40%;
+	display: block;
+	margin: auto;
+}
+
+/* FIN HEADER*/
+/* BODY */
+
+body{
+	background-color: #fff;
+}
+
+.container{
+	padding-top:20px;
+}
+
+.row{
+	padding-left: 1%;
+}
+
+.btn{
+	margin: 1%;
+} 
+
+/* FIN BODY */
