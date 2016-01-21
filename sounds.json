@@ -3,189 +3,400 @@
     {
       "id": 0,
       "fichier": "rondelle",
-      "nom": "Il m'a défoncé la rondelle !"
+      "nom": "Il m'a défoncé la rondelle !",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Mozinor",
+          "1" : "Mickael Jackson"
+        }
+
     },
 
     {
       "id": 1,
       "fichier": "cheesburgercoca",
-      "nom":"Un chesse burger !"
+      "nom":"Un chesse burger !",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Mozinor",
+          "1" : "Mickael Jackson"
+        }
     },
     {
       "id": 2,
       "fichier": "ilestoului",
-      "nom":"Il est où lui !?"
+      "nom":"Il est où lui !?",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Mozinor",
+          "1" : "Mickael Jackson"
+        }
     },
     {
       "id": 3,
       "fichier": "macdodemerde",
-      "nom":"Macdo de merde !"
+      "nom":"Macdo de merde !",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Mozinor",
+          "1" : "Mickael Jackson"
+        }
     },
     {
       "id": 4,
       "fichier": "personne",
-      "nom":"Il y a plus personne !"
+      "nom":"Il y a plus personne !",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Mozinor",
+          "1" : "Mickael Jackson"
+        }
     },
     {
       "id": 5,
       "fichier": "tortillas",
-      "nom":"Tortillas on a vynil"
+      "nom":"Tortillas on a vynil",
+      "categorie":"Musique",
+      "tags":
+        {
+          "0" : "tortillas",
+          "1" : "espagne"
+        }
     },
     {
       "id": 6,
       "fichier": "brucelee",
-      "nom":"Bruce lee"
+      "nom":"Bruce lee",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Bloqués",
+          "1" : "Orelsan",
+          "2" : "Gringe",
+          "3" : "Casseur Flowters"
+        }
     },
     {
       "id": 7,
       "fichier": "wee",
-      "nom":"Weeeeee !"
+      "nom":"Weeeeee !",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Weee",
+          "1" : "escargot",
+          "2" : "youtube"
+        }
     },
     {
       "id": 8,
       "fichier": "philippe",
-      "nom":"Philippe !"
+      "nom":"Philippe !",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Philippe"
+        }
     },
     {
       "id": 9,
       "fichier": "nein",
-      "nom":"Nein nein nein !"
+      "nom":"Nein nein nein !",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Inglorious bastards"
+        }
     },
     {
       "id": 10,
       "fichier": "okay",
-      "nom":"Okayyyyyyy !"
+      "nom":"Okayyyyyyy !",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Les visiteurs"
+        }
     },
     {
       "id": 11,
       "fichier": "johncena",
-      "nom":"His name is ..."
+      "nom":"His name is ...",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "John Cena",
+          "1" : "catch"
+        }
     },
     {
       "id": 12,
       "fichier": "baboulinetpascontent",
-      "nom":"Baboulinet pas content"
+      "nom":"Baboulinet pas content",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Mozinor",
+          "1" : "Baboulinet"
+        }
     },
     {
       "id": 13,
       "fichier": "wondercash",
-      "nom":"Wondercash"
+      "nom":"Wondercash",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Casseurs flowters",
+          "1" : "Orelsan",
+          "2" : "Gringe",
+          "3" : "Wondercash"
+        }
     },
     {
       "id": 14,
       "fichier": "kamelott",
-      "nom":"Arretez de parler"
+      "nom":"Arretez de parler",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Kamelott",
+          "1" : "Arthur"
+        }
     },
     {
       "id": 15,
       "fichier": "babouinetZizi",
-      "nom":"Baboulinet tout dur"
+      "nom":"Baboulinet tout dur",
+      "categorie":"Humour",
+      "tags":
+        {
+          "0" : "Mozinor",
+          "1" : "Baboulinet"
+        }
     },
     {
       "id": 16,
       "fichier": "chewbi",
-      "nom":"Chewbi"
+      "nom":"Chewbi",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Star Wars",
+          "1" : "Chewbacca"
+        }
     },
     {
       "id": 17,
       "fichier": "oompaloompa",
-      "nom":"Oompa Loompa !"
+      "nom":"Oompa Loompa !",
+      "categorie":"Musique",
+      "tags":
+        {
+          "0" : "Charlie & la chocolaterie",
+          "1" : "Primus"
+        }
     },
     {
       "id": 18,
       "fichier": "lapinDuMetro",
-      "nom":"Lapin du métro"
+      "nom":"Lapin du métro",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kasos",
+          "1" : "Lapin"
+        }
     },
     {
       "id": 19,
       "fichier": "lePiegeASouris",
-      "nom":"Le piège à souris"
+      "nom":"Le piège à souris",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kasos",
+          "1" : "Lapin"
+        }
     },
     {
       "id": 20,
       "fichier": "tchatcha",
-      "nom":"Tchatcha"
+      "nom":"Tchatcha",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 21,
       "fichier": "therese",
-      "nom":"Thérèse"
+      "nom":"Thérèse",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Le père noël est une ordure",
+          "1" : "Thérèse"
+        }
     },
     {
       "id": 22,
       "fichier": "tropdrole",
-      "nom":"Haha trop drole"
+      "nom":"Haha trop drole",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 23,
       "fichier": "cestQuiLePatron",
-      "nom":"C'est qui le patron ?"
+      "nom":"C'est qui le patron ?",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kasos",
+          "1" : "Lapin"
+        }
     },
     {
       "id": 24,
       "fichier": "jbmachine",
-      "nom":"JB MACHINE !"
+      "nom":"JB MACHINE !",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 25,
       "fichier": "HaJeBougePlus",
-      "nom":"Haa là j'suis bien"
+      "nom":"Haa là j'suis bien",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kasos",
+          "1" : "Lapin"
+        }
     },
     {
       "id": 26,
       "fichier": "mickey",
-      "nom":"Mickey"
+      "nom":"Mickey",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     }
     ,
     {
       "id": 27,
       "fichier": "ronaldo",
-      "nom":"Ronaldo"
+      "nom":"Ronaldo",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 28,
       "fichier": "pussy",
-      "nom":"Fuck her right in the pussy"
+      "nom":"Fuck her right in the pussy",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 29,
       "fichier": "toosad",
-      "nom":"Too sad"
+      "nom":"Too sad",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 30,
       "fichier": "toosadhorn",
-      "nom":"Too sad horn"
+      "nom":"Too sad horn",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 31,
       "fichier": "weed",
-      "nom":"Smooke weed everyday"
+      "nom":"Smooke weed everyday",
+      "categorie":"Musique",
+      "tags":
+        {
+          "0" : "Snoop Dog"
+        }
     },
     {
       "id": 32,
       "fichier": "awhman",
-      "nom":"Awh man !"
+      "nom":"Awh man !",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 33,
       "fichier": "DOIT",
-      "nom":"Do it !"
+      "nom":"Do it !",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     },
     {
       "id": 34,
       "fichier": "batman",
-      "nom":"I'm batman"
+      "nom":"I'm batman",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Batman"
+        }
     },
     {
       "id": 35,
       "fichier": "gay",
-      "nom":"Hah gay !"
+      "nom":"Hah gay !",
+      "categorie":"Film",
+      "tags":
+        {
+          "0" : "Very bad trip"
+        }
     },
     {
       "id": 36,
       "fichier": "trombone",
-      "nom":"Sad trombone"
+      "nom":"Sad trombone",
+      "categorie":"Musique",
+      "tags":
+        {
+          "0" : "Trombone"
+        }
     }
   ]
 }
