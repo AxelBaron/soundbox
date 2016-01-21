@@ -6,8 +6,8 @@ Merci de commit sur la branche gh-pages pour pouvoir accéder directement à la 
 /!\ Ne marche qu'en local via WAMP ou MAMP sinon erreur (cross origin) à cause du JSON.  
 
 Catégories JSON :
--Film
--Musique
--Humour
--Inclassable
--Serie
+	- Film
+	- Musique
+	- Humour
+	- Inclassable
+	- Serie
