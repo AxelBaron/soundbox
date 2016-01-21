@@ -19,27 +19,31 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
 		<script>
-			function playSong(songToPlay){
+			function playSong(songToPlay, id){
 				document.getElementById(songToPlay);
 				if (songToPlay.paused){
 					songToPlay.play();
+					var duration = songToPlay.duration;
+					setTimeout(function(){
+						$("#"+id+">i").text("play_arrow");
+					}, duration*1000);
 				}
 				else{
 					songToPlay.pause();
 					songToPlay.currentTime = 0;
 				}
 			}
-			
+
 			function	changeIcon(id){
 				var test = "#"+id+">i";
 				console.log(test);
 				$("#"+id+">i").text("pause");
-				
+
 				var song = document.getElementById(id);
 				song = song.duration;
 				console.log(song);
-				
-				
+
+
 			}
 		</script>
 	</head>
@@ -53,7 +57,7 @@
 				<a href="http://axelbaron.github.io/soundbox/" alt="soundbox">
 					<img src="img/soundbox-logo.png" alt="logo" id="logo"/>
 				</a>
-			</h1>	
+			</h1>
 			<img src="img/vynil-cut.svg" alt="Le vynil" id="vynil" width="600px" />
 		</div>
 
@@ -63,7 +67,7 @@
 						$.getJSON("sounds.json", function(data){
 							for (var i = 0; i < data.sounds.length; i++) {
 								var html ='<div>';
-								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+'); changeIcon(this.id);" class="col m3 s12 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
+								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+',this.id); changeIcon(this.id);" class="col m3 s12 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
 								html +='<audio id="'+data.sounds[i].fichier+'" src="sounds/'+data.sounds[i].fichier+'.mp3"></audio>';
 								html+='</div>';
 								$(html).appendTo( "#recepteur-json");
@@ -73,11 +77,11 @@
 					<div id="recepteur-json"></div>
 				</div>
 			</div>
-		
+
 		<footer>
 			<p class="center-align">SoundBox - Concentré de débilités en masse</p>
 		</footer>
-		
+
 		<script type="text/javascript" src="js/materialize.min.js"></script>
 	</body>
 </html>
