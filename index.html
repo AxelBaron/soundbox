@@ -29,6 +29,18 @@
 					songToPlay.currentTime = 0;
 				}
 			}
+			
+			function	changeIcon(id){
+				var test = "#"+id+">i";
+				console.log(test);
+				$("#"+id+">i").text("pause");
+				
+				var song = document.getElementById(id);
+				song = song.duration;
+				console.log(song);
+				
+				
+			}
 		</script>
 	</head>
 	<body>
@@ -49,11 +61,9 @@
 				<div class="row">
 					<script>
 						$.getJSON("sounds.json", function(data){
-							console.log(data);
 							for (var i = 0; i < data.sounds.length; i++) {
-								console.log(data.sounds[i]);
 								var html ='<div>';
-								html += '<button  onclick="playSong('+data.sounds[i].fichier+')" class="col s3 waves-effect waves-light blue lighten-1 btn">'+data.sounds[i].nom+'</button>';
+								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+'); changeIcon(this.id);" class="col s3 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
 								html +='<audio id="'+data.sounds[i].fichier+'" src="sounds/'+data.sounds[i].fichier+'.mp3"></audio>';
 								html+='</div>';
 								$(html).appendTo( "#recepteur-json");
