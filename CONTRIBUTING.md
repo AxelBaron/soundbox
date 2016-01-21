@@ -4,7 +4,7 @@ Fais toi plaisir et viens apporter ta pierre à l'édifice !
 
 ## Infos
 
-Cette soundbox à pour but de répertorier un maximum de samples aussi fun que débiles !
+Cette soundbox à pour but de répertorier un maximum de samples aussi fun que débiles ! :smiley:  
 N'hésite donc pas à contribuer et à proposer tes idées.
 
 /!\ Téléchargement du répository /!\  
