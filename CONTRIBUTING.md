@@ -7,7 +7,7 @@ Fais toi plaisir et viens apporter ta pierre à l'édifice !
 Cette soundbox à pour but de répertorier un maximum de samples aussi fun que débiles !
 N'hésite donc pas à contribuer et à proposer tes idées.
 
-/!\ Téléchargement du répository /!\
+/!\ Téléchargement du répository /!\  
 En local la soundbox ne fonctionnera qu'avec WAMP ou MAMP. Sinon erreur 'cross origin'. 
 
 CSS réalisé avec le framework Materialize.
@@ -49,16 +49,16 @@ CSS réalisé avec le framework Materialize.
 
 ## Signaler un problème
 
-Tu as trouvé un bug ou une erreur ?
+Tu as trouvé un bug ou une erreur ?  
 Viens nous le signaler en soumettant une Issue sur https://github.com/AxelBaron/soundbox/issues
 
-Tu peut le corriger ? C'est encore mieux !
+Tu peut le corriger ? C'est encore mieux !  
 N'hésite pas à venir faire un pull request :D https://github.com/AxelBaron/soundbox/pulls
 
 ## Des idées ?
 
-Tu souhaite l'ajout d'une fonctionnalité ? 
-Tu as une idée ?
+Tu souhaite l'ajout d'une fonctionnalité ?  
+Tu as une idée ?  
 Envoye nous une Issue sur https://github.com/AxelBaron/soundbox/issues
 
 ## TODO
