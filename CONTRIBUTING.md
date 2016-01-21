@@ -50,16 +50,16 @@ CSS réalisé avec le framework Materialize.
 ## Signaler un problème
 
 Tu as trouvé un bug ou une erreur ?  
-Viens nous le signaler en soumettant une Issue sur https://github.com/AxelBaron/soundbox/issues
+Viens nous le signaler en soumettant une [Issue](https://github.com/AxelBaron/soundbox/issues).
 
 Tu peut le corriger ? C'est encore mieux !  
-N'hésite pas à venir faire un pull request :D https://github.com/AxelBaron/soundbox/pulls
+N'hésite pas à venir faire un [Pull Request](https://github.com/AxelBaron/soundbox/pulls).
 
 ## Des idées ?
 
 Tu souhaite l'ajout d'une fonctionnalité ?  
 Tu as une idée ?  
-Envoye nous une Issue sur https://github.com/AxelBaron/soundbox/issues
+Envoye nous une [Issue](https://github.com/AxelBaron/soundbox/issues).
 
 ## TODO
 

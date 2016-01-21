@@ -11,4 +11,4 @@ En local la soundbox ne fonctionnera qu'avec WAMP ou MAMP. Sinon erreur 'cross o
 ## Contribue
 
 Pour contribuer suivez ce lien:  
-https://github.com/AxelBaron/soundbox/blob/gh-pages/CONTRIBUTING.md
+[CONTRIBUTING !](https://github.com/AxelBaron/soundbox/blob/gh-pages/CONTRIBUTING.md)
