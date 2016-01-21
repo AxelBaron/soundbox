@@ -63,7 +63,7 @@
 						$.getJSON("sounds.json", function(data){
 							for (var i = 0; i < data.sounds.length; i++) {
 								var html ='<div>';
-								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+'); changeIcon(this.id);" class="col s3 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
+								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+'); changeIcon(this.id);" class="col m3 s12 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
 								html +='<audio id="'+data.sounds[i].fichier+'" src="sounds/'+data.sounds[i].fichier+'.mp3"></audio>';
 								html+='</div>';
 								$(html).appendTo( "#recepteur-json");
