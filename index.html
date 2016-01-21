@@ -21,29 +21,27 @@
 		<script>
 			function playSong(songToPlay, id){
 				document.getElementById(songToPlay);
+
+				// Si le son est en pause
 				if (songToPlay.paused){
 					songToPlay.play();
+					// Le bouton se change en pause.
+					$("#"+id+">i").text("pause");
+
+					// Calcul le temps su ons pour transformer le btn une fois celui-ci fini.
 					var duration = songToPlay.duration;
 					setTimeout(function(){
 						$("#"+id+">i").text("play_arrow");
 					}, duration*1000);
 				}
+
+				// Si le son est en cours de lecture
 				else{
 					songToPlay.pause();
 					songToPlay.currentTime = 0;
+					var js = "#"+id+">i";
+					$("#"+id+">i").text("play_arrow");
 				}
-			}
-
-			function	changeIcon(id){
-				var test = "#"+id+">i";
-				console.log(test);
-				$("#"+id+">i").text("pause");
-
-				var song = document.getElementById(id);
-				song = song.duration;
-				console.log(song);
-
-
 			}
 		</script>
 	</head>
@@ -67,7 +65,7 @@
 						$.getJSON("sounds.json", function(data){
 							for (var i = 0; i < data.sounds.length; i++) {
 								var html ='<div>';
-								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+',this.id); changeIcon(this.id);" class="col m3 s12 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
+								html += '<button id="btn'+[i]+'" onclick="playSong('+data.sounds[i].fichier+',this.id);" class="col m3 s12 waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">play_arrow</i>'+data.sounds[i].nom+'</button>';
 								html +='<audio id="'+data.sounds[i].fichier+'" src="sounds/'+data.sounds[i].fichier+'.mp3"></audio>';
 								html+='</div>';
 								$(html).appendTo( "#recepteur-json");
