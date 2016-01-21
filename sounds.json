@@ -209,7 +209,7 @@
       "categorie":"Serie",
       "tags":
         {
-          "0" : "Les kasos",
+          "0" : "Les kassos",
           "1" : "Lapin"
         }
     },
@@ -220,7 +220,7 @@
       "categorie":"Serie",
       "tags":
         {
-          "0" : "Les kasos",
+          "0" : "Les kassos",
           "1" : "Lapin"
         }
     },
@@ -262,7 +262,7 @@
       "categorie":"Serie",
       "tags":
         {
-          "0" : "Les kasos",
+          "0" : "Les kassos",
           "1" : "Lapin"
         }
     },
@@ -283,7 +283,7 @@
       "categorie":"Serie",
       "tags":
         {
-          "0" : "Les kasos",
+          "0" : "Les kassos",
           "1" : "Lapin"
         }
     },
@@ -396,6 +396,50 @@
       "tags":
         {
           "0" : "Trombone"
+        }
+    },
+    {
+      "id": 37,
+      "fichier": "gadgetTg",
+      "nom":"Gadget ta gueule ",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Gadget"
+        }
+    },
+    {
+      "id": 38,
+      "fichier": "gadgetPoing",
+      "nom":"Go-go-gadget poing",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Gadget"
+        }
+    },
+    {
+      "id": 39,
+      "fichier": "gadgetNez",
+      "nom":"Go-go-gadget nez",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Gadget"
+        }
+    },
+    {
+      "id": 40,
+      "fichier": "gadgetTagada",
+      "nom":"Gadget tagada",
+      "categorie":"Serie",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Gadget"
         }
     }
   ]
