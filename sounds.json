@@ -206,7 +206,7 @@
       "id": 18,
       "fichier": "lapinDuMetro",
       "nom":"Lapin du métro",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
@@ -217,7 +217,7 @@
       "id": 19,
       "fichier": "lePiegeASouris",
       "nom":"Le piège à souris",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
@@ -259,7 +259,7 @@
       "id": 23,
       "fichier": "cestQuiLePatron",
       "nom":"C'est qui le patron ?",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
@@ -280,7 +280,7 @@
       "id": 25,
       "fichier": "HaJeBougePlus",
       "nom":"Haa là j'suis bien",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
@@ -402,7 +402,7 @@
       "id": 37,
       "fichier": "gadgetTg",
       "nom":"Gadget ta gueule ",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
@@ -413,7 +413,7 @@
       "id": 38,
       "fichier": "gadgetPoing",
       "nom":"Go-go-gadget poing",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
@@ -424,7 +424,7 @@
       "id": 39,
       "fichier": "gadgetNez",
       "nom":"Go-go-gadget nez",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
@@ -435,11 +435,77 @@
       "id": 40,
       "fichier": "gadgetTagada",
       "nom":"Gadget tagada",
-      "categorie":"Serie",
+      "categorie":"Série",
       "tags":
         {
           "0" : "Les kassos",
           "1" : "Gadget"
+        }
+    },
+	 {
+      "id": 41,
+      "fichier": "assistantesociale",
+      "nom":"J'vais voir l'assistante",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Les kassos"
+        }
+    },
+	 {
+      "id": 42,
+      "fichier": "heyoh",
+      "nom":"Hey oh !",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Teletobies"
+        }
+    },
+	 {
+      "id": 43,
+      "fichier": "lebad",
+      "nom":"Le bad !",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Teletobies"
+        }
+    },
+	 {
+      "id": 44,
+      "fichier": "auputes",
+      "nom":"Si t'es sage",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Gadget"
+        }
+    },
+	 {
+      "id": 45,
+      "fichier": "gadgettazer",
+      "nom":"Go-go-gadget taser",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Les kassos",
+          "1" : "Gadget"
+        }
+    },
+	 {
+      "id": 46,
+      "fichier": "jvaistouttexpliquer",
+      "nom":"J'vais tout t'expliquer",
+      "categorie":"Série",
+      "tags":
+        {
+          "0" : "Bloqués",
+          "1" : "Orelsan",
+          "2" : "Gringe"
         }
     }
   ]

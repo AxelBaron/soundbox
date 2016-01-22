@@ -21,7 +21,7 @@ CSS réalisé avec le framework Materialize.
 	- Musique
 	- Humour
 	- Inclassable
-	- Serie
+	- Série
 
 ## Ajout d'un son
 
