@@ -16,7 +16,7 @@ CSS réalisé avec le framework Materialize.
 
 * Les commits sont à faire sur la branche gh-pages pour pouvoir accéder directement à la Soundbox via ce lien : http://axelbaron.github.io/soundbox/
 
-* Les .mp3 doivent être normalisés à -3db.
+* Les .mp3 doivent être normalisés à -3db & ne doivent pas durée plus de 10 secondes.
 
 * Pour le JSON, tu peut classer ton sample dans une des catégories suivantes:
 	- Film
