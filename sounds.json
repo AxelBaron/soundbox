@@ -507,6 +507,16 @@
           "1" : "Orelsan",
           "2" : "Gringe"
         }
+    },
+	 {
+      "id": 47,
+      "fichier": "chalet",
+      "nom":"Une fois au chalet",
+      "categorie":"Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     }
   ]
 }
