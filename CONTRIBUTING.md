@@ -1,14 +1,14 @@
 # Contribue !
 
-Fais toi plaisir et viens apporter ta pierre à l'édifice !
+Fais-toi plaisir et viens apporter ta pierre à l'édifice !
 
 ## Infos
 
-Cette soundbox à pour but de répertorier un maximum de samples aussi fun que débiles ! :smiley:  
+Cette Soundbox à pour but de répertorier un maximum de samples aussi fun que débile ! :smiley:  
 N'hésite donc pas à contribuer et à proposer tes idées.
 
-/!\ Téléchargement du répository /!\  
-En local la soundbox ne fonctionnera qu'avec WAMP ou MAMP. Sinon erreur 'cross origin'. 
+/!\ Téléchargement du Répository /!\  
+En local la Soundbox ne fonctionnera qu'avec WAMP ou MAMP. Sinon erreur 'cross origin'. 
 
 CSS réalisé avec le framework Materialize.
 
@@ -16,9 +16,11 @@ CSS réalisé avec le framework Materialize.
 
 * Les commits sont à faire sur la branche gh-pages pour pouvoir accéder directement à la Soundbox via ce lien : http://axelbaron.github.io/soundbox/
 
-* Les .mp3 doivent être normalisés à -3db & ne doivent pas durée plus de 10 secondes.
+* Tu peux également commit en envoyant un [Pull Request](https://github.com/AxelBaron/soundbox/pulls).
 
-* Pour le JSON, tu peut classer ton sample dans une des catégories suivantes:
+* Les .mp3 doivent être normalisés à -3db & ne doivent pas durer plus de 10 secondes.
+
+* Pour le JSON, tu peux classer ton sample dans une des catégories suivantes:
 	- Film
 	- Musique
 	- Humour
@@ -54,14 +56,14 @@ CSS réalisé avec le framework Materialize.
 Tu as trouvé un bug ou une erreur ?  
 Viens nous le signaler en soumettant une [Issue](https://github.com/AxelBaron/soundbox/issues).
 
-Tu peut le corriger ? C'est encore mieux !  
+Tu peux le corriger ? C'est encore mieux !  
 N'hésite pas à venir faire un [Pull Request](https://github.com/AxelBaron/soundbox/pulls).
 
 ## Des idées ?
 
-Tu souhaite l'ajout d'une fonctionnalité ?  
+Tu souhaites l'ajout d'une fonctionnalité ?  
 Tu as une idée ?  
-Envoye nous une [Issue](https://github.com/AxelBaron/soundbox/issues).
+Envoie nous une [Issue](https://github.com/AxelBaron/soundbox/issues).
 
 ## TODO
 
