@@ -55,6 +55,7 @@ CSS réalisé avec le framework Materialize.
 
 Tu as trouvé un bug ou une erreur ?  
 Viens nous le signaler en soumettant une [Issue](https://github.com/AxelBaron/soundbox/issues).
+Ou en envoie un message sur [Gitter](https://gitter.im/AxelBaron/soundbox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge).
 
 Tu peux le corriger ? C'est encore mieux !  
 N'hésite pas à venir faire un [Pull Request](https://github.com/AxelBaron/soundbox/pulls).
@@ -64,6 +65,7 @@ N'hésite pas à venir faire un [Pull Request](https://github.com/AxelBaron/soun
 Tu souhaites l'ajout d'une fonctionnalité ?  
 Tu as une idée ?  
 Envoie nous une [Issue](https://github.com/AxelBaron/soundbox/issues).
+Ou envoie un message sur [Gitter](https://gitter.im/AxelBaron/soundbox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge).
 
 ## TODO
 
