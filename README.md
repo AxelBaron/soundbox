@@ -1,5 +1,7 @@
 # README
 
+[![Join the chat at https://gitter.im/AxelBaron/soundbox](https://badges.gitter.im/AxelBaron/soundbox.svg)](https://gitter.im/AxelBaron/soundbox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Infos
 
 Cette Soundbox à pour but de répertorier un maximum de samples aussi fun que débile ! :smiley:  
