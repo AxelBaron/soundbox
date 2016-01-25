@@ -6,44 +6,17 @@
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Page css -->
-		<link rel="stylesheet" href="css/master.css" media="screen" charset="utf-8">
+		<!-- Page CSS -->
+		<link type="text/css" rel="stylesheet" href="css/master.min.css" media="screen">
 
-		<!--Google Icon Font-->
+		<!-- Google Icon Font -->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-		<!--materialize.css-->
+		<!-- Materialize CSS -->
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+		
 		<!-- JQuery -->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-		<script>
-			function playSong(songToPlay, id){
-				document.getElementById(songToPlay);
-
-				// Si le son est en pause
-				if (songToPlay.paused){
-					songToPlay.play();
-					// Le bouton se change en pause.
-					$("#"+id+">i").text("pause");
-
-					// Calcul le temps su ons pour transformer le btn une fois celui-ci fini.
-					var duration = songToPlay.duration;
-					setTimeout(function(){
-						$("#"+id+">i").text("play_arrow");
-					}, duration*1000);
-				}
-
-				// Si le son est en cours de lecture
-				else{
-					songToPlay.pause();
-					songToPlay.currentTime = 0;
-					var js = "#"+id+">i";
-					$("#"+id+">i").text("play_arrow");
-				}
-			}
-		</script>
+		<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
 	</head>
 	<body>
 		<!-- header -->
@@ -56,7 +29,7 @@
 					<img src="img/soundbox-logo.png" alt="logo" id="logo"/>
 				</a>
 			</h1>
-			<img src="img/vynil-cut.svg" alt="Le vynil" id="vynil" width="600px" />
+			<img src="img/vynil-cut.svg" alt="Le vynil" id="vynil"/>
 		</div>
 
 			<div class="container">
@@ -80,6 +53,9 @@
 			<p class="center-align">SoundBox - Concentré de débilités en masse</p>
 		</footer>
 
-		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<!-- Script Play Song -->
+		<script type="text/javascript" src="js/playsong.min.js"></script>
+		<!-- JS Materialize -->
+		<script async type="text/javascript" src="js/materialize.min.js"></script>
 	</body>
 </html>
