@@ -517,6 +517,16 @@
         {
           "0" : "Inclassable"
         }
+    },
+    {
+      "id": 48,
+      "fichier": "degueulasse",
+      "nom": "Dégueulasse",
+      "categorie": "Inclassable",
+      "tags":
+        {
+          "0" : "Inclassable"
+        }
     }
   ]
 }
